@@ -1,0 +1,90 @@
+/* Configuración General */
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor Principal (Centrado) */
+.container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+/* Estilo de la Imagen (Bordes Redondeados) */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Esto la hace circular */
+    object-fit: cover;
+    border: 3px solid #007bff;
+    display: block; /* Asegura que se comporte como bloque */
+    margin: 0 auto 1rem auto; /* La centra perfectamente */
+
+}
+
+h1 {
+    margin: 0.5rem 0;
+    color: #222;
+}
+
+.description {
+    color: #666;
+}
+
+/* Lista de Habilidades */
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skills-list li {
+    background: #e9ecef;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+/* Enlaces y Botones */
+.social-links {
+    margin: 1.5rem 0;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #007bff;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+.contact-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+.contact-btn:hover {
+    background-color: #0056b3;
+}
